@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution Finder</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background: #2a2a2a;
+            background: linear-gradient(45deg, #2a2a2a 25%, #e6f5d0 25%, #e6f5d0 50%, #2a2a2a 50%, #2a2a2a 75%, #e6f5d0 75%, #e6f5d0) 50%, #2a2a2a;
+            color: white;
+            font-family: Arial, sans-serif;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .overlay {
+            text-align: center;
+            color: #333;
+        }
+
+        .overlay h1 {
+            margin: 0;
+            font-size: 4em;
+            color: #333;
+            text-shadow: 1px 1px 5px #ffd1dc;
+            /* pastel pink outline */
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 1px;
+        }
+
+        .overlay p {
+            margin: 20px 0 0;
+            font-size: 1.5em;
+            color: #666666;
+            font-style: italic;
+        }
+
+        #leadforms-embd-form {
+            margin-top: 20px;
+        }
+    </style>
+    <script async type="text/javascript" src="https://api.useleadbot.com/lead-bots/get-pixel-script.js"></script>
+    <script type="text/javascript">
+        window.form_token = "GLFT-MB96IP85Q26NELMMYX828DGAGXY";
+    </script>
+</head>
+
+<body>
+    <div class="overlay">
+        <h1>Solution Finder</h1>
+        <p>Use the solution finder below to fill us in on your needs, make suggestions, and sign up to get your name added to the list for updates and to schedule a future call with our client concierge. Client spots will be limited early on as we believe
+            that intimate agent training sessions produce quality results. All early enrollees will be contacted in the order they signed up.</p>
+    </div>
+    <div id="leadforms-embd-form"></div>
+</body>
+
+</html>
